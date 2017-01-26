@@ -1,10 +1,4 @@
 /*
-
-    Template Author : pixelhint.com
-    Author Email    : contact@pixelhint.com
-    Template Name   : Magnetic
-    
-    
     *****************************************
     
     
@@ -23,13 +17,13 @@
 
 
 /*  Fonts  */
-@font-face {
-    font-family: 'raleway-regular';
-    src: url('../fonts/raleway-regular.eot');
-    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-regular.woff') format('woff'),
-         url('../fonts/raleway-regular.ttf') format('truetype'),
-         url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
+/*@font-face {
+    font-family: 'cocogoose-regular';
+    src: url('../fonts/cocogoose-regular.eot');
+    src: url('../fonts/cocogoose-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cocogoose-regular.woff') format('woff'),
+         url('../fonts/cocogoose-regular.ttf') format('truetype'),
+         url('../fonts/cocogoose-regular.svg#ralewayregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -59,8 +53,11 @@
     font-weight: normal;
     font-style: normal;
 
+}*/
+@font-face {
+    font-family: 'cocogoose-regular';
+    src: url('../fonts/cocogoose_regular.otf');
 }
-
 
 
 /*  General CSS*/
@@ -84,7 +81,7 @@ header nav ul li a{
 
 h1, h2, h3, h4, h5 ,h6{
     color: #4b4848;
-    font-family: "raleway-regular", arial;
+    font-family: "cocogoose-regular", arial;
     letter-spacing: 1px;
 }
 
@@ -149,7 +146,7 @@ h5, h6          { font-weight: bolder }
 
     header nav ul li a{
         color: #454545;
-        font-family: "raleway-regular", arial;
+        font-family: "cocogoose-regular", arial;
         font-size: 14px;
         text-decoration: none;
         letter-spacing: 1px;
@@ -157,7 +154,7 @@ h5, h6          { font-weight: bolder }
 
     header nav ul li a:hover,
     header nav ul li a.selected{
-        color: #969595;
+        color: rgb(255,0,0);
     }
 
     header .footer{
@@ -226,7 +223,7 @@ h5, h6          { font-weight: bolder }
 
     header .rights p{
         color: #454545;
-        font-family: "raleway-regular", arial;
+        font-family: "cocogoose-regular", arial;
         font-size: 11px;
         letter-spacing: 1px;
         line-height: 18px;
@@ -289,7 +286,7 @@ h5, h6          { font-weight: bolder }
 /*  Home/portfolio  */
 .main .work{
     display: block;
-    width: 33.33333333333333%;
+    width: 100%;
     height: auto;
     float: left;
     position: relative;
@@ -334,7 +331,7 @@ h5, h6          { font-weight: bolder }
     padding: 20px 0;
     z-index: 77;
     color: #454545;
-    font-family: "raleway-regular", arial;
+    font-family: "cocogoose-regular", arial;
     font-size: 16px;
     letter-spacing: .5px;
     border-bottom: 1px solid #bfbbbb;
@@ -432,7 +429,7 @@ h5, h6          { font-weight: bolder }
 
 .content{
     color: #4b4848;
-    font-family: "raleway-regular", arial;
+    font-family: "cocogoose-regular", arial;
     font-size: 15px;
     line-height: 22px;
     padding: 60px 30px;
@@ -446,7 +443,7 @@ h5, h6          { font-weight: bolder }
 
 .content p{
     color: #4b4848;
-    font-family: "raleway-regular", arial;
+    font-family: "cocogoose-regular", arial;
     font-size: 15px;
     line-height: 24px;
     margin-bottom: 60px;
@@ -474,7 +471,7 @@ h5, h6          { font-weight: bolder }
 
 /*  Contact page map  */
 #map .map_adresse{
-    font-family: 'raleway-regular', arial;
+    font-family: 'cocogoose-regular', arial;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: 1px;
@@ -507,7 +504,7 @@ h5, h6          { font-weight: bolder }
     padding: 7px 10px;
     background: #454545;
     color: #fff;
-    font-family: "raleway-regular", arial;
+    font-family: "cocogoose-regular", arial;
     font-size: 12px;
     position: absolute;
     white-space: nowrap;
@@ -581,7 +578,7 @@ h5, h6          { font-weight: bolder }
         padding: 30px 0;
         text-align: center;
         color: #454545;
-        font-family: "raleway-regular", arial;
+        font-family: "cocogoose-regular", arial;
         font-size: 14px;
         text-decoration: none;
         border-top: 1px solid #f7f5f5;
