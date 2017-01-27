@@ -155,8 +155,8 @@ h5, h6          { font-weight: bolder }
     }
 
     header .footer{
-        position: absolute;
-        bottom: 50px;
+        position: relative;
+        /*bottom: 50px;*/
     }
 
     header ul.social{
@@ -354,8 +354,6 @@ h5, h6          { font-weight: bolder }
 
 .ad_banner{
     font-family: 'cocogoose-regular';
-    padding-top: 2px;
-
 }
 
 
@@ -562,7 +560,8 @@ h5, h6          { font-weight: bolder }
         position: relative;
     }
     header .logo{
-        margin: 40px 0 0 30px;
+        margin: 20px 0 0 40px;
+        align-content: center;
         float: left;
     }
     header .footer{
@@ -570,6 +569,7 @@ h5, h6          { font-weight: bolder }
     }
     header #menu_icon,
     header .close_menu{
+        position: relative;
         float: right;
         margin: 30px 30px 0 0;
     }
@@ -606,7 +606,7 @@ h5, h6          { font-weight: bolder }
     .close_menu,
     .show_menu{
         display: block;
-        padding-top: 12px;
+        /*padding-top: 0px;*/
     }
     .show_menu{
         display: block;
