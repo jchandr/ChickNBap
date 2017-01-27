@@ -510,6 +510,7 @@ h5, h6          { font-weight: bolder }
 
 .ad_banner{
     float: bottom;
+    position: relative;
 }
 
 
