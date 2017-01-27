@@ -107,11 +107,6 @@ h5, h6          { font-weight: bolder }
 }
 
 
-
-
-
-
-
 /*  Header  */
 @media (min-width:1099px){
     header{
@@ -298,6 +293,7 @@ h5, h6          { font-weight: bolder }
 .main .work .media{
     width: 100%;
     vertical-align: middle;
+    padding-bottom: 0.2%;
 }
 
 .main .work .caption{
@@ -357,8 +353,9 @@ h5, h6          { font-weight: bolder }
 
 
 .ad_banner{
-    float: bottom;
-    position: relative;
+    font-family: 'cocogoose-regular';
+    padding-top: 2px;
+
 }
 
 
