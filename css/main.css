@@ -508,6 +508,9 @@ h5, h6          { font-weight: bolder }
     border-radius: 7px;
 }
 
+.ad_banner{
+    float: bottom;
+}
 
 
 
