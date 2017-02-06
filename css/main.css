@@ -201,10 +201,6 @@ h5, h6          { font-weight: bolder }
 }
 
 
-
-
-
-
 /*  Main  */
 .main{
     width: 100%;
@@ -219,10 +215,31 @@ h5, h6          { font-weight: bolder }
     clear: both;
 }
 
+.about_us{
+    padding-top: 13%;
+    padding-right: 2%;
+}
 
+.about_us a{
+    color: rgb(0,0,0);
+}
+.about_us a:hover{
+    color: rgb(255,0,0)
+}
 
+.our_locations{
+    padding-top: 10%;
+}
 
+.our_locations p{
+    line-height: 22px;
+}
 
+.main p
+{
+    font-family: "cocogoose-regular";
+    font-size: 19px;
+}
 
 
 /*  Home/portfolio  */
